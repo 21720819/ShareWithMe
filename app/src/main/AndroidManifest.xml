@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SWM">
         <activity
+            android:name=".Banned"
+            android:exported="true" />
+        <activity
+            android:name=".Success"
+            android:exported="true" />
+        <activity
+            android:name=".Info"
+            android:exported="true" />
+        <activity
+            android:name=".Phone"
+            android:exported="true" />
+        <activity
+            android:name=".School"
+            android:exported="true" />
+        <activity
+            android:name=".SchoolSearch"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
